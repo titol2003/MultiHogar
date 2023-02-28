@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta: Agente inmobiliario</title>
+    <link rel="shortcut icon" href="./imagenes/iconAdmi.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/Inicia_sesion.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-inmobiliaria">        
+            <h1>Bienvenido a MultiHogar MH</h1>
+            <form>
+                <!--NOMBRE USUARIO-->
+                <label for="nombre">Usuario</label>
+                <input type="text" placeholder="Ingrese Usuario" id="usuario">
+    
+                <!--CONTRASEÑA-->
+                <label for="seguridad">Contraseña</label>
+                <input type="password" placeholder="Ingrese Contraseña" id="contraseña">
+    
+                <a href="#">Olvido su contraseña</a>
+                <a href="./registroAdmin.html">Crear nueva cuenta</a>
+    
+                <input class="ingresar" type="button" value="Iniciar Sesión" onclick="validar_ingreso()">
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/Validar_ingreso.js"></script>
+</body>
+</html>

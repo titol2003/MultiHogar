@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../imagenes/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: center;
+    position: absolute;
+    box-shadow: 7px 13px 37px #000;
+}
+
+/* warnings*/
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 0, 0);
+    padding-top: 20px;
+}
+
+/*Formulario Registro*/
+
+.contenedor__login__register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: 85px;
+    left: 250px;
+}
+
+.contenedor__login__register form {
+    width: 100%;
+    padding: 80px 20px;
+    background: #FFF;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login__register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20;
+    color: #46A2FD;
+}
+
+.contenedor__login__register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login__register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario__register{
+    display: block;
+}
+
+.Contenedor__todo .botons{
+    width: 100%;
+    background-color:#46A2FD;
+    border: none;
+    padding: 10px;
+
+}
+
+.botons{
+    background: #46A2FD;
+
+}
+
+/* responsive design*/
+
+@media screen and (max-width:850px ){
+
+    main{
+        margin-top: 50px;
+    }
+
+    .contenedor__login__register{
+        top:-10px;
+        left:-5px;
+        margin: auto;
+    }
+
+    .contenedor__login__register form{
+        position: relative;
+    }
+
+}
+    
+
+

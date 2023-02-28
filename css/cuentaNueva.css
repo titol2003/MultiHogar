@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagenes/portadahome.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nuevo_usuario {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(65, 78, 90, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 37%;
+    position: absolute;
+    transform: translate(-50px, -50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    border-radius: 3%;
+}
+
+.nuevo_usuario form {
+    align-content: center;
+}
+
+.nuevo_usuario h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.nuevo_usuario label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.nuevo_usuario input {
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.nuevo_usuario input[type="text"],
+.nuevo_usuario input[type="password"],
+.nuevo_usuario input[type="number"],
+.nuevo_usuario input[type="date"],
+.nuevo_usuario input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.nuevo_usuario input[type="submit"] {
+    width: 30%;
+    border: none;
+    outline: none;
+    color: #000;
+    height: 25px;
+    background: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 33%;
+    margin-top: 25px;
+}
+
+.nuevo_usuario input:hover {
+    color: darkgray;
+}
